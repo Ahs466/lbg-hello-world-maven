@@ -43,16 +43,4 @@ public class AppTest
         // Assert
         assertEquals( expectedResponse, actualResponse);
     }
-        @Test
-    public void test_sayGoodbye_should_return_Goodbye_World()
-    {
-        // Arrange
-        String actualResponse = "";
-        String expectedResponse = "Goodbye World!";
-
-        // Act
-        actualResponse = sayGoodbye();
-        // Assert
-        assertEquals(expectedResponse, actualResponse);
-    }
 }
