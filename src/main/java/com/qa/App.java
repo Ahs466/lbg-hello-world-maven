@@ -24,8 +24,8 @@ public class App
     public static String sayGoodbye(){
         return "Goodbye World!";
     }
-
-    public static String sayHelloToSomeone(String name){
+a
+    public static String syHelloToSomeone(String name){
         return "Hello " + name ;
     }
 }
